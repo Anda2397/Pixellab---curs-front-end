@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./curs CSS 3.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Curs CSS03</h1>
+
+    <h2>Box Model</h2>
+    <h3>border-box</h3>
+
+    <div class="border-box width-300 padding-15 chenar-rosu">Prima Cutie</div>
+    <p>Box-sizing de tip border-box va avea efectul de a dicta latimea (si/sau) inaltimea elementului cu tot cu border,
+        si padding.</p> 
+    <p>- un border box stabileste dimensiunea totala, adica impreuna cu border-ul lui si cu padding-ul <br /> 
+       - content box va declara dimensiunea continutului</p>
+
+    <h3>content-box</h3>
+
+    <div class="content-box width-300 padding-15 chenar-rosu">A doua Cutie</div>
+
+    <h2>Display</h2>
+
+    <h3>Inline</h3>
+    <p>
+        <a href="#">Display Inline</a> <span>poate insemna orice element</span> <a href="#">care incape cu alte
+            elemente</a> pe acelasi rand. Elementele display:inline nu vor accepta specificarea proprietatilor width,
+        height, padding, margin-<b>vertical</b>
+    </p>
+
+    <h3>Block</h3>
+    <p>Display block inseamna impingerea celorlalte elemente pe randul urmator, exemple aici pot fi de la br si hr
+        <hr />
+        Pana la paragrafe, divuri, sectiuni samd
+    </p>
+    <div>A doua linie</div>
+    Text random, <a href="#">cu inline in el</a>
+    <Section>A patra linie</Section>
+
+    <h3>Inline-Block</h3>
+    <p>Display inline-block reprezinta un punct de mijloc intre cele doua. Elementele inline-block pot avea si
+        dimensiune proprie, dar nu imping alte elemente. <img src="https://i.stack.imgur.com/mGTYI.png"
+            alt="display types">
+    </p>
+
+    <h3>Display Flex</h3>
+
+    <div class="flex">
+        <div class="el"></div>
+        <div class="el"></div>
+        <div class="el"></div>
+    </div>
+
+    <h2>Float</h2>
+    <p>Float indica unui element sa "pluteasca" intr-o anumita directie, si sa accepte alt continut pe acelasi rand.</p>
+    Float functioneaza si pentru ordonarea elementelor, proprietatile left si right putand sa schimbe ordinea.
+
+    <div class="float-container">
+        <div class="cloud">nor 1</div>
+        <div class="cloud">nor 2</div>
+        <div class="cloud">al 3lea nor</div>
+        <p>text care se aseaza cum poate </p>
+        
+    <br class="clear-all-floats"/>
+    </div>
+
+    <h2>Problemele float & the easy fix</h2>
+    <p>Float-urile trag by default continutul urmator in sus, iar noi daca dorim sa facem layouting folosind floats
+        putem pune un clear dupa elementele "plutitoare".</p>
+    <p>Ex: Un element block care are clear: both va trage o linie invizibila.</p>
+
+    <h2>Position</h2>
+    <p>Position ne permite sa dam un alt tip de pozitionare elementelor noastre.</p>
+    <ul>
+        <li>static - pozitionarea implicita</li>
+        <li>relative - pozitionare relativa la pozitionarea initiala a elementului</li>
+        <li>absolute - pozitionare absoluta in primul ancestor de tip relative/absolute/fixed</li>
+        <li>fixed - pozitionare "lipita" de ecran</li>
+    </ul>
+    <p>Aceste proprietati vor functiona impreuna cu coordonate, specificate in px, rem, vw, vh, procente, si vor muta elementul unde dorim.</p>
+
+</body>
+
+</html>
