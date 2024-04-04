@@ -1,0 +1,83 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #fafafa
+}
+
+body > * {
+    background: white;
+}
+
+.LEGO_logo {
+    width: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+nav {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #1a1a1a;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#menu {
+    border: 1px solid #ededed;
+}
+
+.sidebar {
+    margin-top: 150px;
+    margin-left: 30px;
+    box-shadow: -5px 10px 15px #ededed;
+    padding: 10px;
+    width: 15vw;
+    float:left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    box-shadow: -5px 10px 15px #ededed;
+    margin-top: 50px;
+    width: 60vw;
+    float:right;
+    padding: 30px;
+    margin-right: 13vw;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.clear-all-floats {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0px -6px 9px #ededed;
+
+}
