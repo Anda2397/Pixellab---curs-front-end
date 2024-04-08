@@ -7,7 +7,6 @@
 
 body{
 background: #fff;
-min-height: 200vh;
 }
 
 
@@ -25,8 +24,8 @@ div {
 div .logo {
     position: relative;
     text-decoration: none;
-    width: 200px;
-    margin: 10px;
+    width: 160px;
+    margin: 5px;
     box-sizing: border-box;
 }
 
