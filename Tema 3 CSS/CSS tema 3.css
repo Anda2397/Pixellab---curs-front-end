@@ -6,18 +6,17 @@
 }
 
 body{
-background: #fff;
+background: #F4EEE7;
 }
 
 
 div {
-    position: fixed;
     padding: 20px 60px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: end;
-    background-color: #F4EEE7;
+    background-color: #E8CBA0;
 
 }
 
@@ -27,12 +26,14 @@ div .logo {
     width: 160px;
     margin: 5px;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 nav {
     float: right;
     margin-right: 30px;
     margin-top: 20px;
+    display: inline-block;
 }
 
 nav a {
@@ -40,4 +41,30 @@ nav a {
     font-weight: 600;
     margin: 20px;
     text-decoration: none;
+}
+
+h1{
+font-size: 36px;
+}
+
+main article {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 35px;
+    width: 60vw;
+    float:left;
+    padding: 30px;
+    margin-right: 13vw;
+}
+
+.poza1 {
+    float:right;
+    max-width: 300px;
+    margin-top: -230px;
+    margin-right: 100px;
+    
+}
+
+.clear-all-floats {
+    clear: both;
 }
