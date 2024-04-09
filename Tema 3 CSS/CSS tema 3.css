@@ -24,6 +24,46 @@ nav a {
     font-size: 24px;
 }
 
+nav a:hover {
+    color: #E8CBA0;
+}
+
 #menu {
     border: 3px solid orange;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.main-container{
+    margin-top: 50px;
+}
+
+.container{
+    width: 1200px;
+    border: 3px solid orange;
+    padding: 20px;
+    margin-top: 50px auto;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.left-section{
+    width: 50%;
+}
+
+.right-section{
+    width: 50%;
+}
+
+.poza1{
+    width: 300px;
+}
+
+.clear-all-floats {
+    clear: both;
 }
