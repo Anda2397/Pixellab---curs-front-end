@@ -10,6 +10,11 @@ body {
     box-sizing: border-box;
 }
 
+h1 {
+    size: 36px;
+    color: rgb (0, 0, 64);
+}
+
 nav {
     float: right;
     margin-right: 30px;
