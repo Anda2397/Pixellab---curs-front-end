@@ -178,3 +178,7 @@ a.top:hover {
     background-color: #fff;
     color: rgb(221, 150, 43);
 }
+
+#projects{
+    transition: 1s linear;
+}
