@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear-floats {
+    clear: both;
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    padding-top: 80px;
+    background-color: #F4EEE7;
+}
+
+/* Header */
+
+header {
+    position:fixed;
+    width: 100%;
+    background: white;
+    border: 3px solid orange;
+    padding: 7px;
+    top: 0   
+}
+
+nav {
+    line-height: 24px;
+    float: right;
+}
+
+.logo {
+    width: 120px;
+    float: left;
+}
+
+nav a:first-of-type {
+    border-left: 0;
+}
+
+nav a {
+    color: #232323;
+    display: inline-block;
+    padding: 0 15px;
+    border-left: 1px solid #232323;
+    margin-top: 35px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(221, 150, 43);
+}
+
+/* Main content */
+
+#top {
+    margin: 50px auto;
+    border: 3px solid orange;
+    width: 1200px;
+    background-color: #fff;
+}
+
+section {
+    padding: 0 25px;
+    padding-top: 50px;
+    margin-bottom: -50px;
+}
+
+section h1 {
+    font-size: 36px;
+    margin-bottom: 0.75em;
+    color: rgb (0, 0, 64);
+    text-align: left;
+}
+
+.about-text,
+.about-image {
+    float: left;
+}
+
+.about-text {
+    width: 70%;
+    padding-top: 20px;
+}
+
+.about-image {
+    width: 20%;
+    margin-left: 10%;
+}
+
+.corgi-image {
+    width: 320px;
+}
+
+img {
+    width: 100%;
+}
+
+.left-images {
+    width: 66%;
+    float: left;
+}
+
+.left-images img {
+    height: 400px;
+}
+
+.left-images img+img {
+    margin-top: -4px;
+}
+
+.right-image {
+    width: 34%;
+    float: right;
+}
+
+.right-image img {
+    height: 800px;
+}
+
+.services-box {
+    width: 30%;
+    display: inline-block;
+    margin-right: 4.5%;
+    border: 2px solid rgb(221, 150, 43);
+    text-align: left;
+    padding: 10px;
+    height: 160px;
+    vertical-align: top;
+}
+
+.services-box:last-child {
+    margin-right: 0;
+}
+
+.services-box h2 {
+    font-size: 24px;
+    margin-bottom: 0.7em;
+}
+
+section:first-of-type {
+    padding-top: 50px;
+}
+
+section:last-of-type {
+    margin-bottom: 50px;
+}
+
+#projects {
+    margin-top: 50px;
+}
+
+#services {
+    margin-top: 50px;
+}
+
+a.top {
+    background: rgb(221, 150, 43);
+    color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    display: inline-block;
+    padding: 15px;
+
+    text-decoration: none;
+}
