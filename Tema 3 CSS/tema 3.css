@@ -91,7 +91,7 @@ section h1 {
 }
 
 .corgi-image {
-    width: 320px;
+    width: 222px;
 }
 
 img {
@@ -167,4 +167,14 @@ a.top {
     padding: 15px;
 
     text-decoration: none;
+}
+
+.services-box:hover {
+    background-color: rgb(221, 150, 43);
+    color: #fff;
+}
+
+a.top:hover {
+    background-color: #fff;
+    color: rgb(221, 150, 43);
 }
