@@ -1,15 +1,50 @@
+/* website de referință: https://yonobi.com/ */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.clear-floats {
+    clear: both;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+/* header */
 
 .container-fluid {
     background-color: #1C1B1B;
     text-align: center;
     color: #fff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+
+nav {
+    line-height: 50px;
+}
+
+.logo {
+    width: 80px;
+    display: inline-block;
+    float:inline-end;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #1C1B1B;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 15px;
+    margin-left: 20px;
+    display: inline-block;
 }
