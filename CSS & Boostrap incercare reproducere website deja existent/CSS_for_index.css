@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid {
+    background-color: #1C1B1B;
+    text-align: center;
+    color: #fff;
+}
