@@ -25,8 +25,9 @@ body {
 header {
     position: fixed;
     width: 100%;
-    background-color: white;
     top: 0;
+    background-color: transparent;
+    z-index: 2;
 }
 
 nav {
@@ -40,10 +41,56 @@ nav {
 }
 
 nav a {
-    color: #1C1B1B;
+    color: #fff;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0 15px;
     margin-left: 20px;
     display: inline-block;
+}
+
+.banner {
+    background-image: url(https://yonobi.com/cdn/shop/files/4d16417e-112a-4dfd-8992-a05282b6ccf9-yonobi_016_5abdf57d-f47e-4177-895a-ec2dd59a362e_2000x.jpg?v=1711955827);
+    position: relative;
+    height: 912px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.banner-content {
+    z-index: 1;
+    position: relative;
+    color: white;
+    padding-top: 280px;
+}
+
+.banner h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.banner h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background: #fff;
+    color: #1C1B1B;
+    border-radius: 0%;
+    padding: 10px 40px;
+    font-size: small;
+    font-weight: 500;
+    display: block;
+    margin: auto;
 }
