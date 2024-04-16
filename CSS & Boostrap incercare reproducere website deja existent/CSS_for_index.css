@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
 }
 
 /* header */
@@ -93,4 +94,5 @@ nav a {
     font-weight: 500;
     display: block;
     margin: auto;
+    letter-spacing: 3px;
 }
