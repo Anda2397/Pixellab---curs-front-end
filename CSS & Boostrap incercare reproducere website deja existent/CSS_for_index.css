@@ -96,3 +96,13 @@ nav a {
     margin: auto;
     letter-spacing: 3px;
 }
+
+.Courses {
+    margin-top: 100px;
+    text-align: center;
+    display: inline block;
+}
+
+.Courses h6 {
+font-size: 10px;
+}
