@@ -25,19 +25,6 @@ header {
     display: flex;
 }
 
-@media (max-width:1590px) {
-    .normal-nav {
-        display: none;
-    }
-    .burger-nav {
-        display: block;
-    }
-}
-
-.burger-nav {
-    display: none;
-}
-
 .normal-nav {
     display: flex;
     justify-content: space-between;
@@ -55,8 +42,6 @@ header {
     padding: 25px;
     color: #fff;
 } 
-
-
 
 .divider {
     border-right: 1px solid #ccc;
@@ -159,6 +144,7 @@ justify-content: space-between;
 
 .proceduri-online {
     margin-top: 100px;
+    background-color: #EFF5F5;
 }
 
 .procedura-box-container {
@@ -184,4 +170,11 @@ justify-content: space-between;
     background-color: #fff;
     border: 1px solid #f2f2f2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.proceduri-online a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0F1E2C;
 }
