@@ -225,6 +225,7 @@ justify-content: space-between;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;
+    background-color: #fff;
 }
 
 .social-media-box h6 {
@@ -234,5 +235,33 @@ justify-content: space-between;
 }
 
 .social-media {
+    margin-top: 100px;
+    background-color: #EFF5F5;
+}
+
+.newsletter-text {
+    margin-top: 100px;
+}
+
+.checkbox { 
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    margin-top: 100px;
+}
+
+.newsletter-image {
     margin-top: 100px;
 }
