@@ -209,3 +209,30 @@ justify-content: space-between;
 .text-2 {
    margin-top: 62px;
 }
+
+.social-media-image {
+    width: 400px;
+    height: 400px;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-box {
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.social-media-box h6 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    margin-top: 100px;
+}
