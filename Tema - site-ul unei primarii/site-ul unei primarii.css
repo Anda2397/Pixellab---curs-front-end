@@ -135,7 +135,7 @@ justify-content: space-between;
     border-radius: 3px;
     background-color: #F8A23F;
     border: #fff;
-    font-size: bold;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -177,4 +177,21 @@ justify-content: space-between;
     text-decoration: none;
     font-weight: 600;
     color: #0F1E2C;
+}
+
+.registratura {
+    margin-top: 100px;
+}
+
+.registratura-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buton {
+    margin-top: -30px;
+}
+
+.text-2 {
+   margin-top: 62px;
 }
