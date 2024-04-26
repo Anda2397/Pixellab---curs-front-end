@@ -14,7 +14,7 @@ header {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 60%; }
+  height: 65%; }
 
 .navigatie {
   background-color: #fff;
@@ -41,5 +41,35 @@ header {
     height: 40px;
     margin: 0 5px; }
 
-.btn-primary {
-  background-color: aqua; }
+.container-banner-1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 390px; }
+  .container-banner-1 .btn-primary {
+    background-color: #fff;
+    border: #fff;
+    color: #266E99;
+    border-radius: 0%;
+    width: 200px;
+    height: 200px; }
+  .container-banner-1 .btn-primary:hover {
+    color: #fff;
+    background-color: #266E99; }
+  .container-banner-1 .col > button {
+    margin: 5px; }
+
+.container-banner-2 {
+  display: flex;
+  justify-content: center; }
+  .container-banner-2 .btn-primary {
+    background-color: #fff;
+    border: #fff;
+    color: #266E99;
+    border-radius: 0%;
+    width: 200px;
+    height: 200px; }
+  .container-banner-2 .btn-primary:hover {
+    color: #fff;
+    background-color: #266E99; }
+  .container-banner-2 .col > button {
+    margin: 5px; }
