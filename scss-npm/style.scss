@@ -55,30 +55,16 @@ header {
   }
 }
 
-.container-banner-1{
+.container-butoane {
+  padding: 390px;
   display: flex;
-  justify-content: center;
-  padding-top: 390px;
-  .btn-primary {
-    background-color: #fff;
-    border: #fff;
-    color: #266E99;
-    border-radius: 0%;
-    width: 200px;
-    height: 200px;
+  flex-direction: column; // Aici stabilim direcția de afișare a elementelor ca fiind verticală
+  align-items: center; // Centrăm butoanele pe axa orizontală
+  
+  .row {
+    margin-bottom: 25px; // Adăugăm un spațiu între cele două rânduri de butoane
   }
-  .btn-primary:hover {
-    color: #fff;
-    background-color: #266E99;
-  }
-  .col > button {
-    margin: 5px;
-  }
-}
 
-.container-banner-2{
-  display: flex;
-  justify-content: center;
   .btn-primary {
     background-color: #fff;
     border: #fff;
@@ -87,11 +73,9 @@ header {
     width: 200px;
     height: 200px;
   }
+
   .btn-primary:hover {
     color: #fff;
     background-color: #266E99;
-  }
-  .col > button {
-    margin: 5px;
   }
 }

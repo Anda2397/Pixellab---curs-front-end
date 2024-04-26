@@ -41,35 +41,20 @@ header {
     height: 40px;
     margin: 0 5px; }
 
-.container-banner-1 {
+.container-butoane {
+  padding: 390px;
   display: flex;
-  justify-content: center;
-  padding-top: 390px; }
-  .container-banner-1 .btn-primary {
+  flex-direction: column;
+  align-items: center; }
+  .container-butoane .row {
+    margin-bottom: 25px; }
+  .container-butoane .btn-primary {
     background-color: #fff;
     border: #fff;
     color: #266E99;
     border-radius: 0%;
     width: 200px;
     height: 200px; }
-  .container-banner-1 .btn-primary:hover {
+  .container-butoane .btn-primary:hover {
     color: #fff;
     background-color: #266E99; }
-  .container-banner-1 .col > button {
-    margin: 5px; }
-
-.container-banner-2 {
-  display: flex;
-  justify-content: center; }
-  .container-banner-2 .btn-primary {
-    background-color: #fff;
-    border: #fff;
-    color: #266E99;
-    border-radius: 0%;
-    width: 200px;
-    height: 200px; }
-  .container-banner-2 .btn-primary:hover {
-    color: #fff;
-    background-color: #266E99; }
-  .container-banner-2 .col > button {
-    margin: 5px; }
