@@ -40,3 +40,6 @@ header {
     border-right: 1px solid #266E99;
     height: 40px;
     margin: 0 5px; }
+
+.btn-primary {
+  background-color: aqua; }
