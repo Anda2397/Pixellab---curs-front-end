@@ -19,7 +19,8 @@ header {
 .navigatie {
   background-color: #fff;
   padding: 20px;
-  position: fixed; }
+  position: fixed;
+  width: 100%; }
 
 .navigatie-items {
   display: flex;
@@ -58,4 +59,26 @@ header {
     height: 200px; }
   .container-butoane .btn-primary:hover {
     color: #fff;
-    background-color: #266E99; }
+    background-color: #133a50; }
+
+.container-comunicate-presa {
+  background-color: #266E99;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
+  .container-comunicate-presa h2 {
+    color: #fff;
+    margin-bottom: 20px; }
+  .container-comunicate-presa .row {
+    gap: 10px; }
+  .container-comunicate-presa .box {
+    background-color: #fff;
+    padding: 20px; }
+    .container-comunicate-presa .box img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px; }
+    .container-comunicate-presa .box p {
+      margin: 0; }
+  .container-comunicate-presa .box:hover {
+    box-shadow: 0 0 20px rgba(51, 51, 51, 0.2); }

@@ -26,6 +26,7 @@ header {
   background-color: #fff;
   padding: 20px;
   position: fixed;
+  width: 100%;
 }
 
 .navigatie-items {
@@ -77,6 +78,41 @@ header {
 
   .btn-primary:hover {
     color: #fff;
-    background-color: #266E99;
+    background-color: #133a50;
+  }
+}
+
+.container-comunicate-presa {
+  background-color: #266E99;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+  h2 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .row {
+    gap: 10px; // Spatiu intre cutii
+  }
+
+  .box {
+    background-color: #fff; // Fundal alb pentru cutie
+    padding: 20px;
+    
+    img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .box:hover {
+    box-shadow: 0 0 20px rgba(51, 51, 51, 0.2);
   }
 }
