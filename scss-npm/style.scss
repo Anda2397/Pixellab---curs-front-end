@@ -11,7 +11,7 @@
 
 header {
   background-color: #fff;
-  position: fixed;
+  position: static;
 }
 
 .banner {
@@ -19,12 +19,13 @@ header {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 65%;
+  height: 65vh;
 }
 
 .navigatie {
   background-color: #fff;
   padding: 20px;
+  position: fixed;
 }
 
 .navigatie-items {
