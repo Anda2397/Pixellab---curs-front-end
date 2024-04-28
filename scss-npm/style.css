@@ -65,18 +65,26 @@ header {
   background-color: #266E99;
   display: flex;
   justify-content: center;
-  margin-top: 100px; }
+  height: 800px; }
   .container-comunicate-presa h2 {
     color: #fff;
-    margin-bottom: 20px; }
+    margin-top: 300px;
+    margin-left: 200px;
+    font-weight: bold; }
+  .container-comunicate-presa a {
+    color: #266E99;
+    font-weight: 600;
+    text-decoration: none; }
   .container-comunicate-presa .row {
     gap: 10px; }
   .container-comunicate-presa .box {
     background-color: #fff;
-    padding: 20px; }
+    padding: 15px;
+    margin-top: 370px;
+    width: 370px; }
     .container-comunicate-presa .box img {
-      width: 100px;
-      height: 100px;
+      width: 340px;
+      height: 120px;
       margin-bottom: 10px; }
     .container-comunicate-presa .box p {
       margin: 0; }
