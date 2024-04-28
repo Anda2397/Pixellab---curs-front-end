@@ -58,7 +58,7 @@ header {
 }
 
 .container-butoane {
-  padding: 390px;
+  padding: 480px;
   display: flex;
   flex-direction: column; // Aici stabilim direcția de afișare a elementelor ca fiind verticală
   align-items: center; // Centrăm butoanele pe axa orizontală
@@ -85,12 +85,11 @@ header {
 .container-comunicate-presa {
   background-color: #266E99;
   display: flex;
-  justify-content: center;
   height: 800px;
 
   h2 {
     color: #fff;
-    margin-top: 300px;
+    margin-top: 370px;
     margin-left: 200px;
     font-weight: bold;
   }
@@ -106,9 +105,9 @@ header {
   }
 
   .box {
-    background-color: #fff; // Fundal alb pentru cutie
+    background-color: #fff;
     padding: 15px;
-    margin-top: 370px;
+    margin-top: 430px;
     width: 370px;
 
 
