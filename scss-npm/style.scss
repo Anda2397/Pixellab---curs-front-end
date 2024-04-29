@@ -69,6 +69,11 @@ header {
   flex-direction: column; // Aici stabilim direcția de afișare a elementelor ca fiind verticală
   align-items: center; // Centrăm butoanele pe axa orizontală
 
+  .fa-regular {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+
   .row {
     margin-bottom: 25px; // Adăugăm un spațiu între cele două rânduri de butoane
   }
