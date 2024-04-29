@@ -159,7 +159,7 @@ header {
 .container-consiliu {
   background-color: #fff;
   display: flex;
-  padding-bottom: 20px;
+  margin-bottom: 30px;
 
   h2 {
     color: #266E99;
@@ -238,4 +238,35 @@ header {
 .border-box:hover{
   background-color: #D7D7D7;
 }
+}
+
+.conferinte {
+  margin-top: 50px;
+  background-color: #EBEBEB;
+  margin-left: -665px;
+  width: 100%;
+
+  .border-box {
+    width: 450px;
+    background-color: #266E99;
+    padding: 12px;
+  }
+
+  .border-box h6 {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .border-box:hover{
+    background-color: #266E99;
+    color: #fff;
+  }
+
+  img {
+    margin-bottom: 0;
+  }
+}
+
+.container-conferinte{
+  background-color:#EBEBEB;
 }
