@@ -70,7 +70,7 @@ header {
   align-items: center; // Centrăm butoanele pe axa orizontală
 
   .fa-regular {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 35px;
   }
 
@@ -154,7 +154,7 @@ header {
 .container-consiliu {
   background-color: #fff;
   display: flex;
-
+  padding-bottom: 20px;
 
   h2 {
     color: #266E99;
@@ -210,5 +210,27 @@ header {
 
 .primar {
   margin-left: -300px;
+}
+
+.consiliu-col {
+  margin-left: -190px; /* Spațiu între poza primarului și coloana cu casete */
+}
+
+.consiliu-col h2 {
+  margin-left: -5px;
+  margin-bottom: 20px;
+}
+
+.consiliu-col h6 {
+  margin-left: 10px;
+}
+
+.border-box{
+  border: 1px solid #D7D7D7;
+  width: 490px;
+  margin-top: 10px;
+}
+.border-box:hover{
+  background-color: #D7D7D7;
 }
 }
