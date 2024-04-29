@@ -9,6 +9,12 @@
   }
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #266E99;
+}
+
 header {
   background-color: #fff;
   position: static;
@@ -58,7 +64,7 @@ header {
 }
 
 .container-butoane {
-  padding: 480px;
+  padding-top: 53vh;
   display: flex;
   flex-direction: column; // Aici stabilim direcția de afișare a elementelor ca fiind verticală
   align-items: center; // Centrăm butoanele pe axa orizontală
@@ -84,13 +90,17 @@ header {
 
 .container-comunicate-presa {
   background-color: #266E99;
+
   display: flex;
   height: 800px;
+  flex-direction: column; /* modifcarea direcției de afișare a elementelor */
+  align-items: flex-start;
+  margin-top: 400px;
+  margin-left: 360px;
+
 
   h2 {
     color: #fff;
-    margin-top: 370px;
-    margin-left: 200px;
     font-weight: bold;
   }
 
@@ -107,7 +117,6 @@ header {
   .box {
     background-color: #fff;
     padding: 15px;
-    margin-top: 430px;
     width: 370px;
 
 

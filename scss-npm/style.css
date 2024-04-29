@@ -1,9 +1,15 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   font-family: 'Open Sans'; }
   * .child {
     padding: 0;
     margin: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #266E99; }
 
 header {
   background-color: #fff;
@@ -44,7 +50,7 @@ header {
     margin: 0 5px; }
 
 .container-butoane {
-  padding: 480px;
+  padding-top: 53vh;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -64,11 +70,14 @@ header {
 .container-comunicate-presa {
   background-color: #266E99;
   display: flex;
-  height: 800px; }
+  height: 800px;
+  flex-direction: column;
+  /* modifcarea direcției de afișare a elementelor */
+  align-items: flex-start;
+  margin-top: 400px;
+  margin-left: 360px; }
   .container-comunicate-presa h2 {
     color: #fff;
-    margin-top: 370px;
-    margin-left: 200px;
     font-weight: bold; }
   .container-comunicate-presa a {
     color: #266E99;
@@ -79,7 +88,6 @@ header {
   .container-comunicate-presa .box {
     background-color: #fff;
     padding: 15px;
-    margin-top: 430px;
     width: 370px; }
     .container-comunicate-presa .box img {
       width: 340px;
