@@ -109,6 +109,9 @@ header {
   .container-comunicate-presa .border-box h6 {
     color: #fff;
     margin-bottom: -3px; }
+  .container-comunicate-presa .border-box:hover {
+    background-color: #133a50;
+    border-color: #133a50; }
 
 .container-consiliu {
   background-color: #fff;
