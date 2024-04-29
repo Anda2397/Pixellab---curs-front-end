@@ -99,7 +99,7 @@ header {
   height: 800px;
   flex-direction: column; /* modifcarea direcției de afișare a elementelor */
   align-items: flex-start;
-  margin-top: 400px;
+  margin-top: 500px;
   margin-left: 360px;
 
 
@@ -123,6 +123,7 @@ header {
     background-color: #fff;
     padding: 15px;
     width: 370px;
+    margin-top: 10px;
 
 
     img {
@@ -147,10 +148,6 @@ header {
   .border-box h6 {
     color: #fff;
     margin-bottom: -3px;
-  }
-
-  .box:hover {
-    box-shadow: 0 0 20px rgba(51, 51, 51, 0.2);
   }
 }
 
