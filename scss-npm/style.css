@@ -116,7 +116,7 @@ header {
 .container-consiliu {
   background-color: #fff;
   display: flex;
-  margin-bottom: 30px; }
+  padding-bottom: 10px; }
   .container-consiliu h2 {
     color: #266E99;
     font-weight: bold;
@@ -171,24 +171,3 @@ header {
     margin-top: 10px; }
   .container-consiliu .border-box:hover {
     background-color: #D7D7D7; }
-
-.conferinte {
-  margin-top: 50px;
-  background-color: #EBEBEB;
-  margin-left: -665px;
-  width: 100%; }
-  .conferinte .border-box {
-    width: 450px;
-    background-color: #266E99;
-    padding: 12px; }
-  .conferinte .border-box h6 {
-    color: #fff;
-    font-weight: 600; }
-  .conferinte .border-box:hover {
-    background-color: #266E99;
-    color: #fff; }
-  .conferinte img {
-    margin-bottom: 0; }
-
-.container-conferinte {
-  background-color: #EBEBEB; }
