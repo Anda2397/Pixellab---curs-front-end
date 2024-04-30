@@ -239,3 +239,26 @@ header {
   background-color: #D7D7D7;
 }
 }
+
+.container-conferinte {
+  background-color: #ebebeb; 
+  text-align: left;
+  margin-top: 50px;
+  width: 100%;
+
+  h2 {
+      color: #266E99; 
+      font-weight: bold;
+      margin-bottom: 30px;
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  .row {
+      margin-bottom: 20px;
+  }
+}
