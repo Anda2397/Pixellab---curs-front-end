@@ -176,7 +176,8 @@ header {
   background-color: #ebebeb;
   text-align: left;
   margin-top: 50px;
-  width: 100%; }
+  width: 100%;
+  display: flex; }
   .container-conferinte h2 {
     color: #266E99;
     font-weight: bold;
