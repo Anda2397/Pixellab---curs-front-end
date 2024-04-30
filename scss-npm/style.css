@@ -116,7 +116,7 @@ header {
 .container-consiliu {
   background-color: #fff;
   display: flex;
-  padding-bottom: 10px; }
+  padding-bottom: 30px; }
   .container-consiliu h2 {
     color: #266E99;
     font-weight: bold;
@@ -156,7 +156,8 @@ header {
     background-color: #266E99;
     border-color: #266E99; }
   .container-consiliu .primar {
-    margin-left: -300px; }
+    margin-top: -75px;
+    margin-left: 228px; }
   .container-consiliu .consiliu-col {
     margin-left: -190px;
     /* Spațiu între poza primarului și coloana cu casete */ }
@@ -175,7 +176,6 @@ header {
 .container-conferinte {
   background-color: #ebebeb;
   text-align: left;
-  margin-top: 50px;
   width: 100%;
   display: flex; }
   .container-conferinte h2 {
