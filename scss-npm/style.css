@@ -244,37 +244,39 @@ header {
 .container-oras .box {
   background-color: #fff;
   width: 550px;
-  margin-left: 80px; }
-
-.oras h6 {
-  color: #266E99;
-  font-weight: 600;
-  padding: 15px;
-  margin-bottom: 30px; }
-
-.oras p {
-  font-size: smaller;
-  margin-left: 15px; }
-
-.oras hr {
-  margin-left: 15px; }
+  padding-bottom: 5px; }
 
 .fa-solid {
   color: #a0a0a0; }
 
 .container-oras {
-  background-image: url("https://www.pmb.ro/assets/img/bg-image-1.jpg"); }
+  background-image: url("https://www.pmb.ro/assets/img/bg-image-1.jpg");
+  padding-bottom: 50px; }
   .container-oras .border-box {
     background-color: #fff;
     width: 490px;
     height: 40px;
-    margin-top: 10px;
-    margin-left: 62px; }
+    margin-top: 10px; }
+    .container-oras .border-box h6 {
+      padding: 10px; }
+  .container-oras h2 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #fff; }
   .container-oras .border-box:hover {
     background-color: #D7D7D7; }
-  .container-oras .harta {
-    margin-left: 50px; }
   .container-oras h6 {
     font-weight: 600;
     color: #266E99;
-    padding: 10px; }
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .container-oras p {
+    font-size: smaller;
+    padding-left: 20px; }
+  .container-oras hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px; }
+  .container-oras .harta {
+    margin-left: 230px; }
