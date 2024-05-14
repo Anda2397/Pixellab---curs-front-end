@@ -361,3 +361,26 @@ margin-left: 80px;
 .fa-solid{
   color:#a0a0a0;
 }
+
+.container-oras {
+  .border-box{
+    background-color: #fff;
+    width: 490px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 62px;
+  }
+
+  .border-box:hover{
+    background-color:#D7D7D7;
+  }
+  .harta{ 
+    margin-left: 50px;
+  }
+
+  h6{
+    font-weight: 600;
+    color: #266E99;
+    padding: 10px;
+  }
+}
