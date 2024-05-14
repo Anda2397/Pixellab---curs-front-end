@@ -240,3 +240,24 @@ header {
       margin-top: -20px; }
     .container-conferinte .articol-dreapta span {
       color: #266E99; }
+
+.container-oras .box {
+  background-color: #fff;
+  width: 550px;
+  margin-left: 80px; }
+
+.oras h6 {
+  color: #266E99;
+  font-weight: 600;
+  padding: 15px;
+  margin-bottom: 30px; }
+
+.oras p {
+  font-size: smaller;
+  margin-left: 15px; }
+
+.oras hr {
+  margin-left: 15px; }
+
+.fa-solid {
+  color: #a0a0a0; }
