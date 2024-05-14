@@ -262,20 +262,19 @@ header {
 .fa-solid {
   color: #a0a0a0; }
 
-.container-oras .border-box {
-  background-color: #fff;
-  width: 490px;
-  height: 40px;
-  margin-top: 10px;
-  margin-left: 62px; }
-
-.container-oras .border-box:hover {
-  background-color: #D7D7D7; }
-
-.container-oras .harta {
-  margin-left: 50px; }
-
-.container-oras h6 {
-  font-weight: 600;
-  color: #266E99;
-  padding: 10px; }
+.container-oras {
+  background-image: url("https://www.pmb.ro/assets/img/bg-image-1.jpg"); }
+  .container-oras .border-box {
+    background-color: #fff;
+    width: 490px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 62px; }
+  .container-oras .border-box:hover {
+    background-color: #D7D7D7; }
+  .container-oras .harta {
+    margin-left: 50px; }
+  .container-oras h6 {
+    font-weight: 600;
+    color: #266E99;
+    padding: 10px; }
