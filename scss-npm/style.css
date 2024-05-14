@@ -189,26 +189,54 @@ header {
   .container-conferinte .row {
     margin-bottom: 20px; }
 
-.container-conferinte h2 {
-  margin-top: 30px;
-  margin-left: 67px; }
-
-.container-conferinte .screenshot {
-  margin-left: 65px;
-  margin-bottom: 0px; }
-
-.container-conferinte .live-transmissions {
-  margin-left: 67px;
-  background-color: #266E99;
-  width: 538px;
-  height: 50px; }
-  .container-conferinte .live-transmissions p {
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    font-size: 20px; }
-
-.container-conferinte .content-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 20px; }
+.container-conferinte {
+  display: flex; }
+  .container-conferinte h2 {
+    margin-top: 30px;
+    margin-left: 67px; }
+  .container-conferinte .screenshot {
+    margin-left: 65px;
+    margin-bottom: 0px; }
+  .container-conferinte .live-transmissions {
+    margin-left: 67px;
+    background-color: #266E99;
+    width: 538px;
+    height: 50px; }
+    .container-conferinte .live-transmissions p {
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 20px; }
+  .container-conferinte .content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px; }
+  .container-conferinte .container-fluid {
+    margin-left: 700px;
+    margin-top: -378px; }
+  .container-conferinte .box-titlu {
+    background-color: #fff;
+    width: 625px;
+    height: 40px; }
+    .container-conferinte .box-titlu h5 {
+      padding: 7px;
+      color: #266E99;
+      font-weight: 700; }
+  .container-conferinte .articol-dreapta {
+    background-color: #fff;
+    width: 625px;
+    margin-left: -13px; }
+    .container-conferinte .articol-dreapta img, .container-conferinte .articol-dreapta h6, .container-conferinte .articol-dreapta p {
+      padding: 10px; }
+    .container-conferinte .articol-dreapta h6 {
+      color: #266E99;
+      font-weight: 700; }
+    .container-conferinte .articol-dreapta .paragraf {
+      margin-top: -20px;
+      color: #a0a0a0; }
+    .container-conferinte .articol-dreapta .data {
+      font-size: small;
+      color: #a0a0a0;
+      margin-top: -20px; }
+    .container-conferinte .articol-dreapta span {
+      color: #266E99; }

@@ -264,6 +264,7 @@ header {
 }
 
 .container-conferinte{
+  display: flex;
   h2 {
   margin-top: 30px;
   margin-left: 67px;
@@ -294,4 +295,44 @@ header {
   gap: 20px; 
 }
 
+.container-fluid{
+  margin-left: 700px;
+  margin-top: -378px;
+}
+
+.box-titlu {
+  background-color: #fff;
+  width: 625px;
+  height: 40px;
+  h5{
+    padding: 7px;
+    color: #266E99;
+    font-weight: 700;
+  }
+}
+
+.articol-dreapta{
+  background-color: #fff;
+  width: 625px;
+  margin-left: -13px;
+  img, h6, p{
+    padding:10px;
+  }
+  h6{
+    color: #266E99;
+    font-weight: 700;
+  }
+  .paragraf{
+    margin-top: -20px;
+    color: #a0a0a0;
+  }
+  .data{
+    font-size: small;
+    color: #a0a0a0;
+    margin-top: -20px;
+  }
+  span{
+    color: #266E99;
+  }
+}
 }
