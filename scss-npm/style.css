@@ -263,7 +263,8 @@ header {
   .container-oras h2 {
     padding-top: 50px;
     padding-bottom: 10px;
-    color: #fff; }
+    color: #fff;
+    font-weight: bold; }
   .container-oras .border-box:hover {
     background-color: #D7D7D7; }
   .container-oras h6 {
@@ -281,3 +282,25 @@ header {
     margin-top: -10px; }
   .container-oras .harta {
     margin-left: 230px; }
+
+.container-butoane-proiecte {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 50px; }
+  .container-butoane-proiecte h2 {
+    color: #266E99;
+    font-weight: bold;
+    margin-bottom: 30px; }
+  .container-butoane-proiecte .btn-primary {
+    background-color: #266E99;
+    color: #fff;
+    border-radius: 0%;
+    width: 200px;
+    height: 200px; }
+  .container-butoane-proiecte .btn-primary:hover {
+    color: #fff;
+    background-color: #133a50; }
+  .container-butoane-proiecte .row {
+    margin-bottom: 8px; }
