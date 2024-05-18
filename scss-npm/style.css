@@ -304,3 +304,15 @@ header {
     background-color: #133a50; }
   .container-butoane-proiecte .row {
     margin-bottom: 8px; }
+
+.container-evenimente {
+  background-color: #D7D7D7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px; }
+  .container-evenimente h2 {
+    color: #266E99;
+    font-weight: bold; }
+  .container-evenimente .img {
+    width: 100px; }
