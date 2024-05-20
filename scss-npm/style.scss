@@ -97,7 +97,8 @@ header {
   background-color: #266E99;
   display: flex;
   height: 800px;
-  flex-direction: column; /* modifcarea direcției de afișare a elementelor */
+  flex-direction: column;
+  /* modifcarea direcției de afișare a elementelor */
   align-items: flex-start;
   margin-top: 500px;
   margin-left: 360px;
@@ -150,7 +151,7 @@ header {
     margin-bottom: -3px;
   }
 
-  .border-box:hover{
+  .border-box:hover {
     background-color: #133a50;
     border-color: #133a50;
   }
@@ -182,7 +183,7 @@ header {
     margin-left: 140px;
   }
 
-  img{
+  img {
     width: 450px;
     height: 300px;
     margin-bottom: 10px;
@@ -212,167 +213,181 @@ header {
     background-color: #266E99;
     border-color: #266E99;
   }
-.primar {
-  margin-top: -75px;
-  margin-left: 228px;
-}
 
-.consiliu-col {
-  margin-left: -190px; /* Spațiu între poza primarului și coloana cu casete */
-}
+  .primar {
+    margin-top: -75px;
+    margin-left: 228px;
+  }
 
-.consiliu-col h2 {
-  margin-left: -5px;
-  margin-bottom: 20px;
-}
+  .consiliu-col {
+    margin-left: -190px;
+    /* Spațiu între poza primarului și coloana cu casete */
+  }
 
-.consiliu-col h6 {
-  margin-left: 10px;
-}
+  .consiliu-col h2 {
+    margin-left: -5px;
+    margin-bottom: 20px;
+  }
 
-.border-box{
-  border: 1px solid #D7D7D7;
-  width: 490px;
-  margin-top: 10px;
-}
-.border-box:hover{
-  background-color: #D7D7D7;
-}
+  .consiliu-col h6 {
+    margin-left: 10px;
+  }
+
+  .border-box {
+    border: 1px solid #D7D7D7;
+    width: 490px;
+    margin-top: 10px;
+  }
+
+  .border-box:hover {
+    background-color: #D7D7D7;
+  }
 }
 
 .container-conferinte {
-  background-color: #ebebeb; 
+  background-color: #ebebeb;
   text-align: left;
   width: 100%;
   display: flex;
 
   h2 {
-      color: #266E99; 
-      font-weight: bold;
-      margin-bottom: 30px;
+    color: #266E99;
+    font-weight: bold;
+    margin-bottom: 30px;
   }
 
   img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
   }
 
   .row {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
-.container-conferinte{
+.container-conferinte {
   display: flex;
+
   h2 {
-  margin-top: 30px;
-  margin-left: 67px;
-}
+    margin-top: 30px;
+    margin-left: 67px;
+  }
 
-.screenshot{
-  margin-left: 65px;
-  margin-bottom: 0px;
-}
+  .screenshot {
+    margin-left: 65px;
+    margin-bottom: 0px;
+  }
 
-.live-transmissions {
-  margin-left: 67px;
-  background-color: #266E99;
-  width: 538px;
-  height: 50px;
-  
-  p{
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
+  .live-transmissions {
+    margin-left: 67px;
+    background-color: #266E99;
+    width: 538px;
+    height: 50px;
+
+    p {
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 20px;
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .container-fluid {
+    margin-left: 700px;
+    margin-top: -378px;
+  }
+
+  .box-titlu {
+    background-color: #fff;
+    width: 625px;
+    height: 40px;
+
+    h5 {
+      padding: 7px;
+      color: #266E99;
+      font-weight: 700;
+    }
+  }
+
+  .articol-dreapta {
+    background-color: #fff;
+    width: 625px;
+    margin-left: -13px;
+
+    img,
+    h6,
+    p {
+      padding: 10px;
+    }
+
+    h6 {
+      color: #266E99;
+      font-weight: 700;
+    }
+
+    .paragraf {
+      margin-top: -20px;
+      color: #a0a0a0;
+    }
+
+    .data {
+      font-size: small;
+      color: #a0a0a0;
+      margin-top: -20px;
+    }
+
+    span {
+      color: #266E99;
+    }
   }
 }
 
-.content-wrapper {
-  display: flex;
-  align-items: center; 
-  gap: 20px; 
-}
-
-.container-fluid{
-  margin-left: 700px;
-  margin-top: -378px;
-}
-
-.box-titlu {
+.container-oras .box {
   background-color: #fff;
-  width: 625px;
-  height: 40px;
-  h5{
-    padding: 7px;
-    color: #266E99;
-    font-weight: 700;
-  }
+  width: 550px;
+  height: 345px;
+  padding-bottom: 5px;
 }
 
-.articol-dreapta{
-  background-color: #fff;
-  width: 625px;
-  margin-left: -13px;
-  img, h6, p{
-    padding:10px;
-  }
-  h6{
-    color: #266E99;
-    font-weight: 700;
-  }
-  .paragraf{
-    margin-top: -20px;
-    color: #a0a0a0;
-  }
-  .data{
-    font-size: small;
-    color: #a0a0a0;
-    margin-top: -20px;
-  }
-  span{
-    color: #266E99;
-  }
-}
-}
-
-.container-oras .box{
-background-color: #fff;
-width: 550px;
-height: 345px;
-padding-bottom: 5px;
-}
-
-.fa-solid{
-  color:#a0a0a0;
+.fa-solid {
+  color: #a0a0a0;
 }
 
 .container-oras {
   background-image: url("https://www.pmb.ro/assets/img/bg-image-1.jpg");
   padding-bottom: 50px;
-  .border-box{
+
+  .border-box {
     background-color: #fff;
     width: 490px;
     height: 40px;
     margin-top: 10px;
-    h6{
+
+    h6 {
       padding: 10px;
     }
   }
 
-  h2{
+  h2 {
     padding-top: 50px;
     padding-bottom: 10px;
     color: #fff;
     font-weight: bold;
   }
 
-  .border-box:hover{
-    background-color:#D7D7D7;
+  .border-box:hover {
+    background-color: #D7D7D7;
   }
-  
-  h6{
+
+  h6 {
     font-weight: 600;
     color: #266E99;
     padding-left: 20px;
@@ -380,18 +395,18 @@ padding-bottom: 5px;
     padding-bottom: 20px;
   }
 
-  p{
+  p {
     font-size: smaller;
     padding-left: 20px;
   }
 
-  hr{
+  hr {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: -10px;
   }
 
-  .harta{
+  .harta {
     margin-left: 230px;
   }
 }
@@ -410,8 +425,8 @@ padding-bottom: 5px;
   }
 
   .btn-primary {
-    background-color:#266E99;
-    color:#fff;
+    background-color: #266E99;
+    color: #fff;
     border-radius: 0%;
     width: 200px;
     height: 200px;
@@ -425,9 +440,9 @@ padding-bottom: 5px;
   .row {
     margin-bottom: 8px;
   }
-  }
+}
 
-  .container-evenimente{
+.container-evenimente {
   background-color: #ebebeb;
   display: flex;
   justify-content: space-between;
@@ -445,34 +460,34 @@ padding-bottom: 5px;
     height: 300px;
     margin-bottom: 35px;
 
-    .text{
+    .text {
       padding: 15px;
       text-align: center;
       margin-top: 12px;
 
-      a{
+      a {
         text-decoration: none;
         font-weight: 600;
         color: #266E99;
       }
 
-      a:hover{
+      a:hover {
         color: #133a50;
       }
 
-      p{
+      p {
         padding-top: 5px;
       }
-      
+
     }
 
-    .box-data{
+    .box-data {
       background-color: #266E99;
       color: #fff;
       font-weight: 600;
       font-size: larger;
       width: 411px;
-      height:56px;
+      height: 56px;
       padding: 15px;
       text-align: center;
       align-content: center;
@@ -480,24 +495,30 @@ padding-bottom: 5px;
       border-top-right-radius: 30px;
     }
   }
+
   img {
     width: 410px;
     height: 150px;
   }
+}
+
+.container-smartcity {
+  padding: 40px;
+  background-image: url('https://www.pmb.ro/assets/img/bg-image-2.jpg');
+
+  h2 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 25px;
   }
 
-  .container-smartcity {
-    padding: 50px;
-    background-image: url('https://www.pmb.ro/assets/img/bg-image-2.jpg');
-
-    h2{
-      color: #fff;
-      font-weight: bold;
-      margin-bottom: 25px;
-    }
-
-    img{
-      width: 100px;
-      margin-bottom: 50px;
-    }
+  img {
+    display: inline-flex;
+    justify-content: center;
+    width: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    height: auto;
+    margin-left: 100px;
   }
+}
