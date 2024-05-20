@@ -317,7 +317,8 @@ header {
   .container-evenimente .box {
     background-color: #fff;
     width: 410px;
-    height: 300px; }
+    height: 300px;
+    margin-bottom: 35px; }
     .container-evenimente .box .text {
       padding: 15px;
       text-align: center;
@@ -345,3 +346,14 @@ header {
   .container-evenimente img {
     width: 410px;
     height: 150px; }
+
+.container-smartcity {
+  padding: 50px;
+  background-image: url("https://www.pmb.ro/assets/img/bg-image-2.jpg"); }
+  .container-smartcity h2 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 25px; }
+  .container-smartcity img {
+    width: 100px;
+    margin-bottom: 50px; }

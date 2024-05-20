@@ -443,6 +443,7 @@ padding-bottom: 5px;
     background-color: #fff;
     width: 410px;
     height: 300px;
+    margin-bottom: 35px;
 
     .text{
       padding: 15px;
@@ -483,4 +484,20 @@ padding-bottom: 5px;
     width: 410px;
     height: 150px;
   }
+  }
+
+  .container-smartcity {
+    padding: 50px;
+    background-image: url('https://www.pmb.ro/assets/img/bg-image-2.jpg');
+
+    h2{
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+
+    img{
+      width: 100px;
+      margin-bottom: 50px;
+    }
   }
