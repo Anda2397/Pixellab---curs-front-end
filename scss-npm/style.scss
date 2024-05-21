@@ -515,11 +515,16 @@ header {
     margin-bottom: 25px;
   }
 
-  img {
+  .images {
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+  }
+
+  .images img{
     width: 70px;
     margin-bottom: 50px;
     margin-top: 30px;
     height: auto;
-    margin-right: 20px;
   }
 }
