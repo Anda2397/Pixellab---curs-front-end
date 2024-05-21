@@ -531,4 +531,56 @@ header {
 
 .container-imagini{
   background-color: #fff;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    align-items: center;
+  }
+
+  .img1{
+    width: 100px;
+    height: 80px;
+  }
+
+  .img2{
+    width: 350px;
+    height: 98px;
+  }
+
+  .img3{
+    width: 350px;
+    height: 124px;
+  }
+
+  .img4{
+    width: 445px;
+    height: 124px;
+  }
+
+  .img5{
+    width: 147px;
+    height: 91px;
+  }
+
+  .img6{
+    width: 244px;
+    height: 130px;
+  }
+
+  .img7{
+    width: 825px;
+    height: 137px;
+  }
 }
