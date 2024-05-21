@@ -40,6 +40,8 @@ header {
     font-weight: bold;
     font-size: 15px;
     margin-right: 15px; }
+  .navigatie-items a:hover {
+    color: #133a50; }
   .navigatie-items img {
     width: 100px;
     height: 35px;
@@ -87,6 +89,8 @@ header {
     color: #266E99;
     font-weight: 600;
     text-decoration: none; }
+  .container-comunicate-presa a:hover {
+    color: #133a50; }
   .container-comunicate-presa .row {
     gap: 10px; }
   .container-comunicate-presa .box {
