@@ -68,3 +68,44 @@ $whitecolor: #FEFAEC;
     line-height: 20.08px;
   }
 }
+
+.value-prop-section{
+  background-color: $primarycolor;
+  height: 414px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95.15px;
+
+    h5{
+      font-family: $secondaryfont;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32.4px;
+      color: $whitecolor;
+    }
+
+    .Italy-icon {
+      padding-left: 43px;
+      padding-right: 45px;
+      padding-bottom: 48.95px;
+    }
+
+    .pasta-machine-icon {
+      padding-left: 15px;
+      padding-right: 14px;
+      padding-bottom: 48.95px;
+    }
+
+    .pasta-icon {
+      padding-left: 37px;
+      padding-right: 37px;
+      padding-bottom: 48.95px;
+    }
+
+  }
+}
