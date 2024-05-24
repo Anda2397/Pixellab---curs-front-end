@@ -3,7 +3,7 @@
   margin: 0; }
 
 .navbar {
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish";
   background-color: #1c1c1c;
   height: 96px;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25); }
@@ -21,3 +21,29 @@
     gap: 32px;
     padding: 0;
     margin: 0; }
+
+.banner {
+  background-size: cover;
+  background-image: url("Image.png");
+  height: 952px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .banner h2 {
+    font-family: "Nobile";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64.8px;
+    color: #FEFAEC;
+    margin-bottom: 48px; }
+  .banner .button {
+    background-color: #DB9F55;
+    width: 165px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 18px 24px;
+    color: #1c1c1c;
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.08px; }
