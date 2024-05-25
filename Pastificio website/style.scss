@@ -378,3 +378,44 @@ $whitecolor: #FEFAEC;
     }
   }
 }
+
+.map{
+  background-size: cover;
+  background-image: url("map.png");
+  height: 342px;
+
+  .box.adresa-contact{
+    background-color: #1c1c1c;
+    width: 385px;
+    height: 152px;
+    border-radius: 4px;
+  }
+
+  .box-wrapper{
+    padding-top: 118px;
+
+    h6{
+      font-family: $secondaryfont;
+      color: $whitecolor;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      padding-left: 32px;
+      padding-top: 32px;
+      margin-bottom: 8px;
+    }
+
+    p{
+      font-family: $secondaryfont;
+      color: $whitecolor;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding-left: 32px;
+    }
+
+    .rand1{
+      margin-bottom: 8px;
+    }
+  }
+}
