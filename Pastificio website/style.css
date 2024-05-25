@@ -128,3 +128,33 @@
     display: flex;
     justify-content: space-between;
     gap: 24px; }
+
+.scop-mission {
+  background-size: cover;
+  background-image: url("bg image.png");
+  height: 554px; }
+  .scop-mission .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 144px; }
+  .scop-mission h2 {
+    font-family: "Nobile";
+    color: #FEFAEC;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 48px; }
+  .scop-mission .button {
+    background-color: #DB9F55;
+    width: 128px;
+    height: 56px;
+    border-radius: 4px;
+    font-family: "Mulish";
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.08px;
+    padding: 18px 24px; }
