@@ -300,3 +300,29 @@
       padding-left: 32px; }
     .map .box-wrapper .rand1 {
       margin-bottom: 8px; }
+
+.program {
+  background-size: cover;
+  background-image: url("Background program.png");
+  height: 387px; }
+  .program .line {
+    border: 2px solid #DB9F55; }
+  .program h2 {
+    padding-top: 96px;
+    padding-bottom: 24px;
+    font-family: "Nobile";
+    color: #FEFAEC;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px; }
+  .program .zile-si-ore {
+    display: flex;
+    gap: 120px; }
+    .program .zile-si-ore .ore {
+      text-align: center; }
+    .program .zile-si-ore h6 {
+      font-family: "Mulish";
+      color: #FEFAEC;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px; }
