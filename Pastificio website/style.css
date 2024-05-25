@@ -204,3 +204,13 @@
     display: flex;
     justify-content: space-between;
     gap: 24px; }
+
+.social-media {
+  background-color: #1c1c1c;
+  height: 870px; }
+  .social-media h2 {
+    font-family: "Nobile";
+    color: #FEFAEC;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px; }

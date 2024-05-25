@@ -284,3 +284,16 @@ $whitecolor: #FEFAEC;
     gap: 24px;
   }
 }
+
+.social-media{
+  background-color: $primarycolor;
+  height: 870px;
+
+  h2{
+    font-family: $primaryfont;
+    color: $whitecolor;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+  }
+}
