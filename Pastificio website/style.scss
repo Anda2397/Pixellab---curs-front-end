@@ -109,3 +109,73 @@ $whitecolor: #FEFAEC;
 
   }
 }
+
+.best-sell-products{
+  background-color: $primarycolor;
+  height: 846px;
+  h2{
+    padding-top: 96px;
+    font-size: 36px;
+    font-weight: 500;
+    color: $whitecolor;
+    padding-bottom: 48px;
+  }
+
+  .card{
+    width: 384px;
+    height: 552px;
+    background-color: #FFF;
+    border-radius: 5px;
+
+    .linie{
+      border: 3px solid #DB9F55;
+    }
+
+    h4{
+      font-family: $secondaryfont;
+      font-size: 24px;
+      font-weight: 700;
+      color: #000;
+      padding-left: 32px;
+      padding-top: 32px;
+      line-height: 36px;
+    }
+
+    p{
+      font-family: $secondaryfont;
+      color: #000;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding-left: 32px;      
+      margin-bottom: 32px;
+    }
+
+    h3{
+      font-family: $secondaryfont;
+      color: #000;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+    }
+
+    .pret{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 32px;
+      padding-bottom: 32px;
+     
+      .arrow{
+        padding: 6px;
+        margin-right: 32px;
+      }
+    }
+  }
+
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+}

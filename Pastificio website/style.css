@@ -76,3 +76,55 @@
       padding-left: 37px;
       padding-right: 37px;
       padding-bottom: 48.95px; }
+
+.best-sell-products {
+  background-color: #1c1c1c;
+  height: 846px; }
+  .best-sell-products h2 {
+    padding-top: 96px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #FEFAEC;
+    padding-bottom: 48px; }
+  .best-sell-products .card {
+    width: 384px;
+    height: 552px;
+    background-color: #FFF;
+    border-radius: 5px; }
+    .best-sell-products .card .linie {
+      border: 3px solid #DB9F55; }
+    .best-sell-products .card h4 {
+      font-family: "Mulish";
+      font-size: 24px;
+      font-weight: 700;
+      color: #000;
+      padding-left: 32px;
+      padding-top: 32px;
+      line-height: 36px; }
+    .best-sell-products .card p {
+      font-family: "Mulish";
+      color: #000;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding-left: 32px;
+      margin-bottom: 32px; }
+    .best-sell-products .card h3 {
+      font-family: "Mulish";
+      color: #000;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px; }
+    .best-sell-products .card .pret {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 32px;
+      padding-bottom: 32px; }
+      .best-sell-products .card .pret .arrow {
+        padding: 6px;
+        margin-right: 32px; }
+  .best-sell-products .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px; }
