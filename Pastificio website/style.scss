@@ -10,25 +10,25 @@ $secondarycolor: #DB9F55;
 $whitecolor: #FEFAEC;
 
 
-.navbar{
+.navbar {
   font-family: $secondaryfont;
   background-color: $primarycolor;
   height: 96px;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
-  
-  .logo{
+
+  .logo {
     width: 163.56px;
     height: 64px;
   }
- 
-  a{
+
+  a {
     text-decoration: none;
-    color:#FEFAEC;
+    color: #FEFAEC;
     font-weight: 400;
     font-size: 16px;
   }
 
-  ul{
+  ul {
     list-style: none;
     display: flex;
     gap: 32px;
@@ -41,12 +41,12 @@ $whitecolor: #FEFAEC;
   background-size: cover;
   background-image: url("Image.png");
   height: 952px;
-  
+
   display: flex;
   align-items: center;
   justify-content: space-around;
 
-  h2{
+  h2 {
     font-family: $primaryfont;
     font-weight: 700;
     font-size: 48px;
@@ -69,19 +69,19 @@ $whitecolor: #FEFAEC;
   }
 }
 
-.value-prop-section{
+.value-prop-section {
   background-color: $primarycolor;
   height: 414px;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  .container{
+  .container {
     display: flex;
     justify-content: space-between;
     margin-top: 95.15px;
 
-    h5{
+    h5 {
       font-family: $secondaryfont;
       font-size: 24px;
       font-weight: 700;
@@ -110,10 +110,11 @@ $whitecolor: #FEFAEC;
   }
 }
 
-.best-sell-products{
+.best-sell-products {
   background-color: $primarycolor;
   height: 846px;
-  h2{
+
+  h2 {
     padding-top: 96px;
     font-size: 36px;
     font-weight: 500;
@@ -121,17 +122,17 @@ $whitecolor: #FEFAEC;
     padding-bottom: 48px;
   }
 
-  .card{
+  .card {
     width: 384px;
     height: 552px;
     background-color: #FFF;
     border-radius: 5px;
 
-    .linie{
+    .linie {
       border: 3px solid #DB9F55;
     }
 
-    h4{
+    h4 {
       font-family: $secondaryfont;
       font-size: 24px;
       font-weight: 700;
@@ -141,17 +142,17 @@ $whitecolor: #FEFAEC;
       line-height: 36px;
     }
 
-    p{
+    p {
       font-family: $secondaryfont;
       color: #000;
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
-      padding-left: 32px;      
+      padding-left: 32px;
       margin-bottom: 32px;
     }
 
-    h3{
+    h3 {
       font-family: $secondaryfont;
       color: #000;
       font-size: 24px;
@@ -159,33 +160,33 @@ $whitecolor: #FEFAEC;
       line-height: 36px;
     }
 
-    .pret{
+    .pret {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding-left: 32px;
       padding-bottom: 32px;
-     
-      .arrow{
+
+      .arrow {
         padding: 6px;
         margin-right: 32px;
       }
     }
   }
 
-  .cards{
+  .cards {
     display: flex;
     justify-content: space-between;
     gap: 24px;
   }
 }
 
-.scop-mission{
+.scop-mission {
   background-size: cover;
   background-image: url("bg image.png");
   height: 554px;
 
-  .container{
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,7 +194,7 @@ $whitecolor: #FEFAEC;
     padding-top: 144px;
   }
 
-  h2{
+  h2 {
     font-family: $primaryfont;
     color: $whitecolor;
     font-size: 36px;
@@ -203,7 +204,7 @@ $whitecolor: #FEFAEC;
     margin-bottom: 48px;
   }
 
-  .button{
+  .button {
     background-color: $secondarycolor;
     width: 128px;
     height: 56px;
@@ -214,5 +215,72 @@ $whitecolor: #FEFAEC;
     font-weight: 400;
     line-height: 20.08px;
     padding: 18px 24px;
+  }
+}
+
+.user-review {
+  background-color: $primarycolor;
+  height: 672px;
+
+  h2 {
+    font-family: $primaryfont;
+    color: $whitecolor;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    padding-top: 96px;
+    margin-bottom: 48px;
+  }
+
+  .card {
+    width: 384px;
+    height: 378px;
+    border-radius: 5px;
+
+    .review-2{
+      p{
+        margin-bottom: 32px;
+      }
+    }
+
+    .review-3{
+      p{
+        margin-bottom: 120px;
+      }
+    }
+
+    p {
+      font-family: $secondaryfont;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 21.6px;
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-top: 32px;
+      margin-bottom: 76px;
+    }
+
+    h6 {
+      font-family: $secondaryfont;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 21.6px;
+      margin-left: 274px;
+      margin-bottom: 48px;
+    }
+
+    .stars {
+      margin-left: 152px;
+      width: 200px;
+      height: 36px;
+    }
+  }
+
+  .cards-review{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
   }
 }
