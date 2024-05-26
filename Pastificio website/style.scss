@@ -456,3 +456,43 @@ $whitecolor: #FEFAEC;
     }
   }
 }
+
+.footer{
+  background-color: $primarycolor;
+  height: 268px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+
+  .bottom-nav{
+    padding-top: 72px;
+  }
+  .contact-info{
+    padding-top: 72px;
+  }
+  .facebook-instagram{
+    padding-top: 148px;
+    .facebook{
+      padding-right: 24px;
+    }
+  }
+
+  h6{
+    font-family: $secondaryfont;
+    color: $whitecolor;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+  p{
+    font-family: $secondaryfont;
+    color: $whitecolor;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+}
