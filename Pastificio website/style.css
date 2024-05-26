@@ -264,7 +264,8 @@
       padding-left: 32px; }
     .social-media .card .paragraph1 {
       margin-bottom: 53px; }
-    .social-media .card .paragraph2, .social-media .card .paragraph3 {
+    .social-media .card .paragraph2,
+    .social-media .card .paragraph3 {
       margin-bottom: 32px; }
     .social-media .card .likes-comments {
       display: flex;
@@ -375,6 +376,9 @@
 .contact-section {
   background-color: #1c1c1c;
   height: 1338px; }
+  .contact-section .harta {
+    background-size: cover;
+    background-image: url("contact map.png"); }
   .contact-section h2 {
     font-family: "Nobile";
     color: #FEFAEC;
@@ -386,4 +390,47 @@
   .contact-section .harta {
     width: 1300px;
     height: 468px;
-    border-radius: 5px; }
+    border-radius: 5px;
+    position: relative; }
+
+.box-adresa-program {
+  background-color: #1c1c1c;
+  width: 385px;
+  height: 358px;
+  border-radius: 5px;
+  margin-left: 48px;
+  margin-top: 48px;
+  position: absolute; }
+  .box-adresa-program h4 {
+    font-family: "Mulish";
+    color: #FEFAEC;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 8px; }
+  .box-adresa-program p {
+    font-family: "Mulish";
+    color: #FEFAEC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px; }
+  .box-adresa-program h6 {
+    font-family: "Mulish";
+    color: #FEFAEC;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px; }
+  .box-adresa-program .adresa {
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 24px; }
+  .box-adresa-program .program-wrapper {
+    display: flex;
+    gap: 52px; }
+    .box-adresa-program .program-wrapper .program-ore {
+      text-align: center; }
+    .box-adresa-program .program-wrapper .program-zile {
+      padding-left: 32px; }
+  .box-adresa-program .titlu {
+    padding-left: 32px; }

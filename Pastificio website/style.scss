@@ -47,7 +47,8 @@ $whitecolor: #FEFAEC;
   width: 58px;
   border-bottom: 4px solid #DB9F55;
   position: absolute;
-  bottom: -10px; /* Ajustează valoarea dacă este necesar */
+  bottom: -10px;
+  /* Ajustează valoarea dacă este necesar */
   left: 50%;
   transform: translateX(-48%);
   bottom: -36px;
@@ -253,14 +254,14 @@ $whitecolor: #FEFAEC;
     height: 378px;
     border-radius: 5px;
 
-    .review-2{
-      p{
+    .review-2 {
+      p {
         margin-bottom: 32px;
       }
     }
 
-    .review-3{
-      p{
+    .review-3 {
+      p {
         margin-bottom: 120px;
       }
     }
@@ -294,23 +295,23 @@ $whitecolor: #FEFAEC;
     }
   }
 
-  .cards-review{
+  .cards-review {
     display: flex;
     justify-content: space-between;
     gap: 24px;
   }
 }
 
-.social-media{
+.social-media {
   background-color: $primarycolor;
   height: 870px;
-  
-  .cards{
+
+  .cards {
     display: flex;
     justify-content: space-between;
   }
 
-  h2{
+  h2 {
     font-family: $primaryfont;
     color: $whitecolor;
     font-size: 36px;
@@ -320,16 +321,16 @@ $whitecolor: #FEFAEC;
     margin-bottom: 48px;
   }
 
-  .card{
+  .card {
     background-color: #FFF;
     width: 384px;
     height: 576px;
 
-    .text-icon{
+    .text-icon {
       display: flex;
       justify-content: space-between;
-      
-      h6{
+
+      h6 {
         font-family: $secondaryfont;
         color: #000;
         font-size: 16px;
@@ -338,7 +339,7 @@ $whitecolor: #FEFAEC;
         padding: 32px;
       }
 
-      .instagram-logo{
+      .instagram-logo {
         width: 24px;
         height: 24px;
         margin-top: 32px;
@@ -346,7 +347,7 @@ $whitecolor: #FEFAEC;
       }
     }
 
-    p{
+    p {
       font-family: $secondaryfont;
       color: #000;
       font-size: 16px;
@@ -360,15 +361,16 @@ $whitecolor: #FEFAEC;
       margin-bottom: 53px;
     }
 
-    .paragraph2, .paragraph3{
+    .paragraph2,
+    .paragraph3 {
       margin-bottom: 32px;
     }
-    
-    .likes-comments{
+
+    .likes-comments {
       display: flex;
       padding-left: 32px;
 
-      h6{
+      h6 {
         font-family: $secondaryfont;
         font-size: 16px;
         font-weight: 400;
@@ -378,14 +380,14 @@ $whitecolor: #FEFAEC;
 
       }
 
-      .heart{
+      .heart {
         width: 21px;
         height: 18.26px;
         color: #1c1c1c;
         margin-right: 10px;
       }
 
-      .comment{
+      .comment {
         width: 18.3px;
         height: 18.26px;
         color: #1c1c1c;
@@ -395,22 +397,22 @@ $whitecolor: #FEFAEC;
   }
 }
 
-.map{
+.map {
   background-size: cover;
   background-image: url("map.png");
   height: 342px;
 
-  .box.adresa-contact{
+  .box.adresa-contact {
     background-color: #1c1c1c;
     width: 385px;
     height: 152px;
     border-radius: 4px;
   }
 
-  .box-wrapper{
+  .box-wrapper {
     padding-top: 118px;
 
-    h6{
+    h6 {
       font-family: $secondaryfont;
       color: $whitecolor;
       font-size: 16px;
@@ -421,7 +423,7 @@ $whitecolor: #FEFAEC;
       margin-bottom: 8px;
     }
 
-    p{
+    p {
       font-family: $secondaryfont;
       color: $whitecolor;
       font-size: 16px;
@@ -430,22 +432,22 @@ $whitecolor: #FEFAEC;
       padding-left: 32px;
     }
 
-    .rand1{
+    .rand1 {
       margin-bottom: 8px;
     }
   }
 }
 
-.program{
+.program {
   background-size: cover;
   background-image: url("Background program.png");
   height: 387px;
 
-  .line{
+  .line {
     border: 2px solid #DB9F55;
   }
- 
-  h2{
+
+  h2 {
     padding-top: 96px;
     padding-bottom: 24px;
     font-family: $primaryfont;
@@ -455,15 +457,15 @@ $whitecolor: #FEFAEC;
     line-height: 54px;
   }
 
-  .zile-si-ore{
+  .zile-si-ore {
     display: flex;
     gap: 120px;
 
-    .ore{
+    .ore {
       text-align: center;
     }
-    
-    h6{
+
+    h6 {
       font-family: $secondaryfont;
       color: $whitecolor;
       font-size: 16px;
@@ -473,27 +475,30 @@ $whitecolor: #FEFAEC;
   }
 }
 
-.footer{
+.footer {
   background-color: $primarycolor;
   height: 268px;
   display: flex;
   justify-content: space-between;
   margin-top: 4px;
 
-  .bottom-nav{
+  .bottom-nav {
     padding-top: 72px;
   }
-  .contact-info{
+
+  .contact-info {
     padding-top: 72px;
   }
-  .facebook-instagram{
+
+  .facebook-instagram {
     padding-top: 148px;
-    .facebook{
+
+    .facebook {
       padding-right: 24px;
     }
   }
 
-  h6{
+  h6 {
     font-family: $secondaryfont;
     color: $whitecolor;
     font-size: 16px;
@@ -502,7 +507,7 @@ $whitecolor: #FEFAEC;
     margin-bottom: 8px;
   }
 
-  p{
+  p {
     font-family: $secondaryfont;
     color: $whitecolor;
     font-size: 16px;
@@ -513,11 +518,16 @@ $whitecolor: #FEFAEC;
 
 }
 
-.contact-section{
+.contact-section {
   background-color: $primarycolor;
   height: 1338px;
 
-  h2{
+  .harta {
+    background-size: cover;
+    background-image: url("contact map.png");
+  }
+
+  h2 {
     font-family: $primaryfont;
     color: $whitecolor;
     font-size: 48px;
@@ -527,9 +537,69 @@ $whitecolor: #FEFAEC;
     padding-bottom: 48px;
   }
 
-  .harta{
+  .harta {
     width: 1300px;
     height: 468px;
     border-radius: 5px;
+    position: relative;
+  }
+}
+
+.box-adresa-program {
+  background-color: $primarycolor;
+  width: 385px;
+  height: 358px;
+  border-radius: 5px;
+  margin-left: 48px;
+  margin-top: 48px;
+  position: absolute;
+
+  h4 {
+    font-family: $secondaryfont;
+    color: $whitecolor;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 8px;
+  }
+  
+  p{
+    font-family: $secondaryfont;
+    color: $whitecolor;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+  h6{
+    font-family: $secondaryfont;
+    color: $whitecolor;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .adresa{
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+
+  .program-wrapper{
+    display: flex;
+    gap: 52px;
+
+    .program-ore{
+      text-align: center;
+    }
+
+    .program-zile{
+      padding-left: 32px;
+    }
+  }
+
+  .titlu{
+    padding-left: 32px;
   }
 }
