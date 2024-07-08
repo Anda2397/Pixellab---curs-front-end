@@ -1,0 +1,116 @@
+<script>
+
+/* Exercițiul 2: Afișarea cifrelor unui numar 
+	hint: Vom avea un while acolo, si numarul va fi schimbat cu fiecare iteratie
+Exemplu: Daca numar = 132; rezulta:
+1
+3
+2
+*/
+
+/* Varianta I cu while */
+console.log("~~~~~~~~~~ VARIANTA 1 CU WHILE  ~~~~~~~~~~")
+var numar = 132;
+
+while (numar > 0) {
+    rest = numar % 10; // asta inseamna 2, adica ULTIMA CIFRA
+    console.log(rest);
+
+    numarFaraUltimaCifra = numar / 10; // asta inseamna 13.2
+    numarFaraUltimaCifra = numarFaraUltimaCifra - (numarFaraUltimaCifra % 1); // facem asta ca sa scapam de virgula: 13.2 - 0.2 = 13
+
+    numar=numarFaraUltimaCifra;
+}
+
+/* Varianta II cu for */
+console.log("~~~~~~~~~~ VARIANTA 2 CU FOR  ~~~~~~~~~~")
+var numar = 132;
+var numarString = 132 + '';
+
+var lungimeNumar = numarString.length;
+
+for (i = 0; i < lungimeNumar; i ++) {
+    console.log(numarString[i]);
+}
+
+
+
+/* Exercițiul 3: Afișarea sumei cifrelor unui numar 
+	hint: Vom avea un while acolo, si numarul va fi schimbat cu fiecare iteratie
+Exemplu: Daca numar = 132; rezulta: 6
+*/
+
+console.log("~~~~~~~~~~ SUMA CIFRELOR UNUI NUMAR  ~~~~~~~~~~")
+
+var numar = 132;
+var sumaDePanaAcum = 0;
+
+while (numar > 0) {
+    rest = numar % 10; // asta inseamna 2, adica ULTIMA CIFRA
+    console.log(rest);
+    sumaDePanaAcum = sumaDePanaAcum + rest;
+
+    numarFaraUltimaCifra = numar / 10; // asta inseamna 13.2
+    numarFaraUltimaCifra = numarFaraUltimaCifra - (numarFaraUltimaCifra % 1); // facem asta ca sa scapam de virgula: 13.2 - 0.2 = 13
+
+    numar=numarFaraUltimaCifra;
+}
+
+console. log("Suma cifrelor numarului este: "+sumaDePanaAcum);
+
+
+
+/* Exercițiul 4: Afișarea numarului de cifre ale unui numar 
+	hint: Vom avea un while acolo, si numarul va fi schimbat cu fiecare iteratie
+Exemplu: Daca numar = 132; rezulta: 3 
+*/
+
+console.log("~~~~~~~~~~ AFISAREA NUMARULUI DE CIFRE ALE UNUI NUMAR  ~~~~~~~~~~")
+
+var numar = 132;
+var numarDeCifreMomentan = 0;
+
+while (numar > 0) {
+    rest = numar % 10; // asta inseamna 2, adica ULTIMA CIFRA
+    console.log(rest);
+    numarDeCifreMomentan = numarDeCifreMomentan + 1;
+
+    numarFaraUltimaCifra = numar / 10; // asta inseamna 13.2
+    numarFaraUltimaCifra = numarFaraUltimaCifra - (numarFaraUltimaCifra % 1); // facem asta ca sa scapam de virgula: 13.2 - 0.2 = 13
+
+    numar=numarFaraUltimaCifra;
+}
+
+console.log ("Numarul de cifre este:" + numarDeCifreMomentan);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
