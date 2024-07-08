@@ -4,7 +4,7 @@
 /* 1. Calcularea sumei numerelor impare de la 1 la 15:
 exemplu output: (1+3+5+7+9+11+13+15 =) 64 
 */
-console.log("~~~~~~~~~~ EXERCITII CU FOR  ~~~~~~~~~~")
+console.error("~~~~~~~~~~ EXERCITII CU FOR  ~~~~~~~~~~")
 console.log("~~~~~~~~~~ Exercitiul 1  ~~~~~~~~~~")
 
 var sumaDePanaAcum = 0;
@@ -22,6 +22,31 @@ console.log ("Suma numerelor impare de la 1 la 15 este:" +sumaDePanaAcum);
 exemplu: “Salut sunt Laura” Output: 3 
 */
 
+console.log("~~~~~~~~~~ Exercitiul 2  ~~~~~~~~~~")
+var text = "Salut sunt Laura";
+var numarAparitiiLiteraA = 0;
+
+for (var i = 0; i < text.length; i++) {
+    if (text[i] === 'a') {
+        numarAparitiiLiteraA = numarAparitiiLiteraA + 1;
+    }
+}
+
+console.log("De cate ori apare litera 'a' in propozitie: " + numarAparitiiLiteraA);
+
+
+/* 3. Calculati produsul primelor 5 numere întregi.
+exemplu output: (1*2*3*4*5 =) 120
+*/
+
+console.log("~~~~~~~~~~ Exercitiul 3  ~~~~~~~~~~")
+var produsulNumerelorIntregi = 1;
+
+for (i=1; i<=5; i++) {
+    produsulNumerelorIntregi = produsulNumerelorIntregi * i;
+}
+
+console.log("Produsul numerelor intregi de la 1 la 5 este:"+produsulNumerelorIntregi);
 
 
 
