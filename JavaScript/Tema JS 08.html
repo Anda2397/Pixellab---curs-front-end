@@ -55,8 +55,8 @@ console.log("Produsul numerelor intregi de la 1 la 5 este:"+produsulNumerelorInt
 Input: cubulNumarului(7) Output:  343
 */
 
-console.error("~~~~~~~~~~ EXERCITII CU FUNCTION  ~~~~~~~~~~")
-console.log("~~~~~~~~~~ Exercitiul 4  ~~~~~~~~~~")
+console.error ("~~~~~~~~~~ EXERCITII CU FUNCTION  ~~~~~~~~~~")
+console.log ("~~~~~~~~~~ Exercitiul 4  ~~~~~~~~~~")
 
 function cubulNumarului (numar) {
     const rezultat = numar ** 3;
@@ -115,6 +115,32 @@ console.log("Produsul primelor 5 numere intregi este: " + rezultat);
 Input:  [‘Salut’, 2, ‘Dacia’] Output: 1 
 */
 
+console.error ("~~~~~~~~~~ EXERCITII CU ARRAY  ~~~~~~~~~~")
+console.log ("~~~~~~~~~~ Exercitiul 7  ~~~~~~~~~~")
+
+const array = ['Salut', 2, 'Dacia'];
+
+function numaraSaluturi(array) {
+    var numarSaluturi = 0;
+
+    array.forEach (function(element){
+        if (element === 'Salut') {
+            numarSaluturi ++;
+        }
+    });
+
+    return numarSaluturi;
+}
+
+var rezultat = numaraSaluturi(array);
+console.log ("Numarul de aparitii ale stringului 'Salut' este: " + rezultat);
+
+
+/* 8. Se da un array, care este produsul numerelor din acesta?
+Input:  [10, 20, 1, 2] Output: 400
+*/
+
+console.log ("~~~~~~~~~~ Exercitiul 8  ~~~~~~~~~~");
 
 
 
