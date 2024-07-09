@@ -49,13 +49,71 @@ for (i=1; i<=5; i++) {
 console.log("Produsul numerelor intregi de la 1 la 5 este:"+produsulNumerelorIntregi);
 
 
+// EXERCITII CU FUNCTION// 
+
+/* 4. O functie pt calcularea cubului unui număr
+Input: cubulNumarului(7) Output:  343
+*/
+
+console.error("~~~~~~~~~~ EXERCITII CU FUNCTION  ~~~~~~~~~~")
+console.log("~~~~~~~~~~ Exercitiul 4  ~~~~~~~~~~")
+
+function cubulNumarului (numar) {
+    const rezultat = numar ** 3;
+    return rezultat;
+}
+
+var rezultat = cubulNumarului(7);
+console.log("Cubul numarului este: "+ rezultat);
+
+
+/* 5. O funcție pt găsirea numărului de litere specificate dintr-un text
+Input:  functieLitere(“alune uscate”, “e”) Output: 2 
+*/
+
+console.log("~~~~~~~~~~ Exercitiul 5  ~~~~~~~~~~")
+
+function functieLitere (text, litera) {
+
+    var numarAparitii = 0;
+
+    for (i=0; i< text.length; i++){
+        if (text[i]===litera) {
+        numarAparitii = numarAparitii + 1;
+    }
+}
+
+    return numarAparitii;
+}
+
+var rezultat = functieLitere ("alune uscate", "e");
+console.log("Numarul de aparitii ale literei 'e' este: " + rezultat);
+
+
+/* 6. O functie pt calcularea produsul primelor X numere întregi.
+Input:  functieProdusNumere(“5”) Output: 120 
+*/
+
+function ProdusNumere(x) {
+
+    var produs = 1;
+
+    for (i=1; i<=x; i++) {
+        produs = produs * i;
+    }
+
+    return produs;
+}
+
+var rezultat = ProdusNumere(5);
+console.log("Produsul primelor 5 numere intregi este: " + rezultat);
 
 
 
-
-
-
-
+//EXERCITII CU ARRAY//
+/* 7. Se da un array, de cate ori se gaseste stringul“Salut” in el?
+Input:  [‘Salut’, 2, ‘Dacia’] Output: 1 
+*/
 
 
 
