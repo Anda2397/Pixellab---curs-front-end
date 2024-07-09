@@ -118,18 +118,18 @@ Input:  [‘Salut’, 2, ‘Dacia’] Output: 1
 console.error ("~~~~~~~~~~ EXERCITII CU ARRAY  ~~~~~~~~~~")
 console.log ("~~~~~~~~~~ Exercitiul 7  ~~~~~~~~~~")
 
-const array = ['Salut', 2, 'Dacia'];
+var array = ['Salut', 2, 'Dacia'];
 
 function numaraSaluturi(array) {
-    var numarSaluturi = 0;
+    var numaraSaluturi = 0;
 
     array.forEach (function(element){
         if (element === 'Salut') {
-            numarSaluturi ++;
+            numaraSaluturi ++;
         }
     });
 
-    return numarSaluturi;
+    return numaraSaluturi;
 }
 
 var rezultat = numaraSaluturi(array);
@@ -140,7 +140,72 @@ console.log ("Numarul de aparitii ale stringului 'Salut' este: " + rezultat);
 Input:  [10, 20, 1, 2] Output: 400
 */
 
-console.log ("~~~~~~~~~~ Exercitiul 8  ~~~~~~~~~~");
+console.log("~~~~~~~~~~ Exercitiul 8  ~~~~~~~~~~");
+
+var array = [10, 20, 1, 2]; // Am declarat array - ul
+
+function calculProdusNumere(array) {
+    var produs = 1;
+
+    // Parcurgerea fiecarui element din array și calcularea produsului
+    for (var i = 0; i < array.length; i++) {
+        produs = produs * array[i];
+    }
+
+    return produs;
+}
+
+var rezultat = calculProdusNumere(array);
+console.log("Produsul numerelor din array este: " + rezultat);
+
+
+/* 9. Se da un array de stringuri, de cate ori se gaseste litera “a” in array?
+Input:  [‘baobab’, ‘calculator’] Output: 4
+*/
+
+var array = ['baobab', 'calculator'];
+
+function numarareaLiterelorA (array) {
+    var numarareaA = 0;
+
+    array.forEach (function(element) {
+        for (var i = 0; i< element.length; i++) {
+            if (element[i] === 'a') {
+                numarareaA ++;
+            }
+        }
+    });
+
+    return numarareaA;
+}
+
+var rezultat = numarareaLiterelorA(array); 
+console.log ("Numarul de aparitii ale literei 'a' este: " + rezultat);
+
+/* fara ARRAY FOREACH: 
+    function numaraAparitiileA(array) {
+    var numarareaA = 0; // Inițializează variabila pentru a număra litera "a"
+    
+    for (var i = 0; i < array.length; i++) { // Parcurge fiecare element din array
+        var element = array[i];
+        for (var j = 0; j < element.length; j++) { // Parcurge fiecare caracter din element
+            if (element[j] === 'a') {
+                numarareaA++;
+            }
+        }
+    }
+
+    return numarareaA;
+}
+
+var rezultat = numaraAparitiileA(array);
+console.log("Numarul de aparitii ale literei 'a' este: " + rezultat);
+*/
+
+
+
+
+
 
 
 
