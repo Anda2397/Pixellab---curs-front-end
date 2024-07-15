@@ -56,3 +56,28 @@ arrayMic = [10, 13];
 console.log(verificaIncluziuneArray (arrayMare, arrayMic));
 
 
+/* EX 3: Creaza o functie care sterge un element dintr-un array. Functia primeste atat array-ul cat si elementul care trebuie gasit si sters ca parametri, si returneaza functia noua.
+
+    Exemple:
+    Input: eliminaElement([1,2,3,4], [3]) 
+    Output [1,2,4]
+*/
+
+console.warn ("~~~~~~~~~~~ EXERCITIUL 3 ~~~~~~~~~~~")
+
+function eliminaElement (array, element) {
+    const index = array.indexOf(element);
+
+    if (index !== -1) {
+        array.splice (index, 1);  // index: Specifică poziția elementului din array care trebuie eliminat; 1: Indică numărul de elemente care trebuie eliminate.
+    }
+    return array;
+}
+
+const arrayEx3 = [1, 2, 3, 4];
+const pozitiaLui3 = arrayEx3.indexOf(3);
+console.log ("Pozitia lui 3 este: " + pozitiaLui3);
+const newArray = eliminaElement (arrayEx3, 3);
+console.log ("Noul array fara elementul '3' este: " + newArray);
+
+
