@@ -152,6 +152,8 @@ parametru și să returneze suma tuturor elementelor din array. Testează funcț
 
     console.log (numereUnice);
 
+    //Ex asta nu l-am prea inteles, l-am copiat de la chat gpt :(
+
     /* Ex 5: 
     Dublarea valorilor cu map():
     Creează un array cu numere.
@@ -166,3 +168,53 @@ parametru și să returneze suma tuturor elementelor din array. Testează funcț
     });
 
     console.log (numereDublate);
+
+
+    /* Ex 6: 
+    Creează un array de numere.
+    Filtrează numerele pare cu filter().
+    Folosește map() pentru a tripla valorile numerelor filtrate. */
+
+    console.log ("~~~~~~~ EXERCITIUL 6 ~~~~~~~")
+
+    let arrayNumere = [1, 2, 3, 4, 5, 6];
+    let numerePare = arrayNumere.filter (function (numar){
+        return numar % 2 === 0;
+    });
+
+    console.log ('Numerele pare din array sunt: ' + numerePare);
+
+    let triplareValoriNumereFiltrate = numerePare.map (function (numar){
+        return numar * 3;
+    });
+
+    console.log ('Numerele filtrate * 3: ' + triplareValoriNumereFiltrate);
+
+     /* Ex 7: 
+    Creează un array de șapte elemente.
+    Extrage o secțiune din array cu slice().
+    Elimină elementele extrase din array-ul original cu splice(). */
+
+    console.log ("~~~~~~~ EXERCITIUL 7 ~~~~~~~")
+
+    let arraySapteElemente = [1, 'maimuta', 3, 5, 4, 6, 8];
+    console.log ("Arrayul original: " + arraySapteElemente);
+
+    let arrayNou = arraySapteElemente.slice(1, 5);
+    console.log ("Arrayul nou: " + arrayNou);
+
+    arraySapteElemente.splice (1, 4);
+    console.log ("Array dupa eliminarea elementelor extrase din arrayul original: " + arraySapteElemente);
+
+
+     /* Ex 8: 
+    Creează un array cu cinci elemente.
+    Înlocuiește al treilea element cu un altul folosind splice(). */
+
+    console.log ("~~~~~~~ EXERCITIUL 8 ~~~~~~~")
+
+    let arrayCinciElemente = [1, 2, 3, 4, 5];
+    console.log ("Array original: " + arrayCinciElemente); 
+
+    arrayCinciElemente.splice (3, 1, "kiwi");
+    console.log ("Am inlocuit elementul de pe pozitia 3 (cifra 4) cu kiwi: " + arrayCinciElemente);
