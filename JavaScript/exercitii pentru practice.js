@@ -311,6 +311,7 @@ arrayFerma = [
     
         for (let i = 0; i < arrayFerma.length; i++) {
             let obiectAnimal = arrayFerma[i]; // Extragem fiecare obiect din array
+
             if (obiectAnimal.numar % 2 === 0) { // Verificăm dacă numărul este par
                 animalePar.push(obiectAnimal); // Adăugăm obiectul în array-ul 'animalePar'
             }
@@ -320,3 +321,5 @@ arrayFerma = [
     }
     
     console.log(animaleNumarPar(arrayFerma));
+
+    // Ex facut cu ajutorul chat GPT
